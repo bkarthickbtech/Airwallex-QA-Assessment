@@ -1,6 +1,6 @@
 # Introduction
 
-Airwallex API automation with using robot framework
+Airwallex API automation by using robot framework
    
 # Requirements <br>
 Python 3 <br>
@@ -13,7 +13,7 @@ ChromeDriver <br>
   Install Python, PIP, VirtualEnv
 
 	python --version  - 2.7
-	Note: Mac OS  you have Python installed by default.
+	Note: In Mac OS you have Python pre installed.
 
 
 # Install pip
@@ -73,12 +73,14 @@ Install necessary packages
 
     Trigger robot to run test suite
         
-        robot -i smoke  suites/ 
+       robot -i smoke  suites/ 
     
     To run the positive_cases test cases
-        robot -i positive_cases  suites/
+        
+	robot -i positive_cases  suites/
 
     To run the negative test cases
-        robot -i negative_cases  suites/      
+        
+	robot -i negative_cases  suites/      
 
 
